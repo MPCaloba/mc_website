@@ -470,3 +470,38 @@ article .icon {
     padding: 1rem;
     margin: 0 1rem 1rem 1rem;
 }
+
+
+
+/* ======================== BOOKS PAGE ======================== */
+
+.books-page-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.books-page-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+
+.books-page-container div {
+    max-width: 21rem;
+    max-height: 60rem;
+}
+
+.book-description {
+    background-color: white;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin: 0 1rem 1rem 1rem;
+}
+
+.book-img {
+    width: 40%;
+    height: 40%;
+}
