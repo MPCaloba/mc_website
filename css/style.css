@@ -1,5 +1,4 @@
-/* ==== GENERAL ==== */
-
+/* ======================== GENERAL ======================== */
 /* importing the font family */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
@@ -22,7 +21,7 @@ p {
 
 
 
-/* ==== DESKTOP NAVIGATION ==== */
+/* ============ DESKTOP NAVIGATION ============ */
 
 nav, .nav-links {
     display: flex;
@@ -63,7 +62,7 @@ a:hover {
 
 
 
-/* ==== HAMBURGUER MENU ==== */
+/* ============ HAMBURGUER MENU ============ */
 
 #hamburguer-nav {
     display: none;
@@ -146,9 +145,9 @@ a:hover {
 
 
 
-/* ==== ALL SECTIONS ==== */
+/* ============ ALL SECTIONS ============ */
 
-section {
+.section {
     padding-top: 4vh;
     height: 96vh;
     margin: 0 10rem;
@@ -203,7 +202,7 @@ section {
 
 
 
-/* ==== BUTTONS ==== */
+/* ============ BUTTONS ============ */
 
 .btn-container {
     display: flex;
@@ -253,7 +252,63 @@ section {
 
 
 
-/* ==== PROFILE SECTION ==== */
+/* ============ CONTACT SECTION ============ */
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    background: rgb(250, 250, 250);
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+
+.contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.contact-info-container p {
+    font-size: larger;
+}
+
+.contact-icon {
+    cursor: default;
+}
+
+.email-icon {
+    height: 2.5rem;
+}
+
+
+
+/* ============ FOOTER SECTION ============ */
+
+footer {
+    height: 26vh;
+    margin: 0 1rem;
+}
+
+footer p {
+    text-align: center;
+}
+
+
+
+/* ======================== HOME PAGE ======================== */
+/* ============ PROFILE SECTION ============ */
 
 .profile-section {
     display: flex;
@@ -275,7 +330,7 @@ section {
 
 
 
-/* ==== ABOUT SECTION ==== */
+/* ============ ABOUT SECTION ============ */
 
 .about-section {
     position: relative;
@@ -318,7 +373,7 @@ section {
 
 
 
-/* ==== PROJECTS SECTION ==== */
+/* ============ PROJECTS SECTION ============ */
 
 .projects-section {
     position: relative;
@@ -347,7 +402,7 @@ section {
 
 
 
-/* ==== SKILLS SECTION ==== */
+/* ============ SKILLS SECTION ============ */
 
 .skills-section {
     position: relative;
@@ -388,55 +443,30 @@ article .icon {
 
 
 
-/* ==== CONTACT SECTION ==== */
+/* ======================== PROJECTS PAGE ======================== */
 
-.contact-section {
+.projects-page-details-container {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70vh;
 }
 
-.contact-info-upper-container {
+.projects-page-container{
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+
+.projects-page-container div {
+    max-width: 21rem;
+    max-height: 60rem;
+}
+
+.project-description {
+    background-color: white;
     border-radius: 2rem;
-    border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: rgb(163, 163, 163);
-    background: rgb(250, 250, 250);
-    margin: 2rem auto;
-    padding: 0.5rem;
-}
-
-.contact-info-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    margin: 1rem;
-}
-
-.contact-info-container p {
-    font-size: larger;
-}
-
-.contact-icon {
-    cursor: default;
-}
-
-.email-icon {
-    height: 2.5rem;
-}
-
-
-
-/* ==== FOOTER SECTION ==== */
-
-footer {
-    height: 26vh;
-    margin: 0 1rem;
-}
-
-footer p {
-    text-align: center;
+    padding: 1rem;
+    margin: 0 1rem 1rem 1rem;
 }
